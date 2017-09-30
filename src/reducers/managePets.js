@@ -1,6 +1,6 @@
 export let state;
 
- 
+
 export function managePets(){
   switch(action.type){
     case '':
@@ -11,7 +11,7 @@ export function managePets(){
 }
 
 export function dispatch(action){
-  state = changeState(state, action);
+  state = managePets(state, action);
   render();
   }
 
