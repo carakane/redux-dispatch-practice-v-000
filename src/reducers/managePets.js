@@ -1,6 +1,6 @@
 export let state;
 
-export function managePets(state={pets: [{name: '', type: '', id: 0}]}, action){
+export function managePets(state={pets: []}, action){
   switch(action.type){
     case 'ADD_PET':
       return {pets: [...state.pets, action.pet]};
