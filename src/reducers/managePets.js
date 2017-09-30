@@ -3,7 +3,9 @@ export let state;
 
 export function managePets(state={pets: [{name: '', type: '', id: 0}]}, action){
   switch(action.type){
-    case '':
+    case 'ADD_PET':
+      return {};
+    case 'REMOVE_PET':
       return {};
     default:
       return state;
