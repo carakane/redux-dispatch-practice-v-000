@@ -17,5 +17,5 @@ export function dispatch(action){
   }
 
 export function render(){
-  document.innerHTML = <ul><li>state.pets.name</li></ul>
+  document.innerHTML = state.pets
 }
