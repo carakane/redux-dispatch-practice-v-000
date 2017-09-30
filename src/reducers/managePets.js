@@ -17,5 +17,5 @@ export function dispatch(action){
   }
 
 export function render(){
-  document.innerHTML = state.pets
+  document.innerHTML = <ul><li>Splash</li></ul>
 }
